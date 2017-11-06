@@ -1,0 +1,97 @@
+body{
+	background-image: url(../img/fonBody.jpg);
+	background-size: 100%;
+}
+
+#Pole{
+height: 80%;
+width:80%;
+position: absolute;
+top: 10%;
+left:10%;
+background-color: #000;
+border: 10px solid saddlebrown;
+overflow: hidden;
+}
+
+	
+.EnemyTankTop{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	 background: url(../img/enemyTop.png);
+	background-size: 100%;
+	transition: 200ms;
+}	
+
+.EnemyTankLeft{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	 background: url(../img/enemyLeft.png);
+	background-size: 100%;
+	transition: 200ms;
+}
+
+.EnemyTankRight{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	 background: url(../img/enemyRight.png);
+	background-size: 100%;
+	transition: 200ms;
+}
+
+.EnemyTankBottom{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	 background: url(../img/enemyBottom.png);
+	background-size: 100%;
+	transition: 200ms;
+}
+
+.shotLeft{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	width: 10px;
+	height: 5px;
+	background-color: #eee;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	transition: 200ms;
+}
+
+.shotRight{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	width: 10px;
+	height: 5px;
+	background-color: #eee;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+.shotTop{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	width: 5px;
+	height: 10px;
+	background-color: #eee;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+.shotBottom{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	width: 5px;
+	height: 10px;
+	background-color: #eee;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius:50%;
+}
